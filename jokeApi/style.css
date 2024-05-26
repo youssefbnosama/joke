@@ -1,0 +1,37 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fab22e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.container{
+    background-color: #15161a;
+    width: 80vmin;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#joke{
+    width: 80%;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+#btn{
+    width: 60%;
+    border-radius: 5px;
+    background-color: #fab22e;
+    color: #15161a;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
